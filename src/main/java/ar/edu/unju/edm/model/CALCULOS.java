@@ -179,7 +179,7 @@ public class CALCULOS {
      return Punto6;
   }
   
-  public int ResolverPunto7() { //falta terminar
+  public int ResolverPunto7() { //falta terminar -
 	  int Punto7=0;
 	  int serie = 1;
 	  boolean sumar=true;
