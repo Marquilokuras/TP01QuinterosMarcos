@@ -179,7 +179,7 @@ public class CALCULOS {
      return Punto6;
   }
   
-  public int ResolverPunto7() { //falta terminar -
+  /*public int ResolverPunto7() { //falta terminar 
 	  int Punto7=0;
 	  int serie = 1;
 	  boolean sumar=true;
@@ -213,7 +213,7 @@ public class CALCULOS {
 	      System.out.print(elementos[j]+ "  ");
 	  }
 	  return Punto7;
-  }
+  }*/
   
   public String ResolverPunto8() { 
 	  String Punto8 = "";

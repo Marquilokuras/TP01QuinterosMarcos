@@ -75,14 +75,14 @@ public class Controlador {
 		return "Punto6";
 	}
 	
-	@GetMapping("/calculoPunto7")
+/*	@GetMapping("/calculoPunto7")
 	public String getPunto7Page(Model model) {
 		int PuntoN7 = 0;
 		CALCULOS nuevaPunto7 = new CALCULOS();
 		PuntoN7 = nuevaPunto7.ResolverPunto7();
 		model.addAttribute("Punto7", PuntoN7);
 		return "Punto7";
-	}
+	}*/
 	
 	@GetMapping("/calculoPunto8")
 	public String getPunto8Page(@RequestParam (name = "num1") int num1, Model model) {
