@@ -230,28 +230,27 @@ public class CALCULOS {
 	  return Punto8;
   }
     
-  public String ResolverPunto9() {  //terminar
+  public String ResolverPunto9() { 
       String Punto9 = "";
+      int i = 320;
       
-      for(int i=320;i==160;i=i-20) {
+      for(i=320;i>=160;i=i-20) {
     	  Punto9 = Punto9 + i + " - ";
-    	  System.out.println(Punto9); 
+    	  System.out.println(Punto9);
       }
       
      return Punto9;
   } 
   
-  public String ResolverPunto10() { //terminar
+  public String ResolverPunto10() { 
 	  String Punto10 = "";
-	  int resultado = 1;
-	  int factorMultiplicador = 1;
+	  int valor = 320;
 	  
-	  do {
-		  resultado = numero1 * factorMultiplicador;
-		  factorMultiplicador += 1;
-		  Punto10 = Punto10 + resultado + " - "; 
+	  while(valor >= 160) {
+		  Punto10 = Punto10 + valor + " - "; 
 		  System.out.println(Punto10);
-	  }while((resultado + numero1)<=100);
+		  valor = valor - 20;
+	  }
 	  
 	  return Punto10;
   }
